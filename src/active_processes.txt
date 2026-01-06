@@ -1,0 +1,2 @@
+devkoya+    5406  0.0  0.0  20820  6280 pts/0    Ss   10:42   0:00 /usr/bin/bash
+devkoya+    5805  0.0  0.0  18148  2504 pts/0    S+   11:14   0:00 grep --color=auto -E bash|terminal

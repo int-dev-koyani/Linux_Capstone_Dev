@@ -1,0 +1,18 @@
+Date & Time
+Tue Jan  6 11:00:01 IST 2026
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       2.2Gi        11Gi       425Mi       1.7Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+Disk Usage
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.0G  2.3M  3.0G   1% /run
+/dev/nvme0n1p2  468G   13G  432G   3% /
+tmpfs           7.4G   20M  7.4G   1% /dev/shm
+efivarfs        384K  100K  280K  27% /sys/firmware/efi/efivars
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p1  1.1G  6.3M  1.1G   1% /boot/efi
+tmpfs           7.4G  5.2M  7.4G   1% /tmp
+tmpfs           1.5G  100K  1.5G   1% /run/user/1001

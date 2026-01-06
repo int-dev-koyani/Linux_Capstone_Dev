@@ -1,0 +1,17 @@
+mkdir Linux_Capstone_Dev
+cd Linux_Capstone_Dev
+mkdir -p src/scripts config logs backup
+touch logs/system_info.txt
+echo "Date & Time" >> system_info.txt
+date >> system_info.txt
+echo "Memory Usage" >> system_info.txt
+free -h >> system_info.txt
+echo "Disk Usage" >> system_info.txt
+df -h >> system_info.txt
+cd config
+touch database.cfg
+chmod 640 database.cfg
+touch secret_key.pem
+cd src
+touch active_processes.txt
+ps aux
